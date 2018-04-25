@@ -45,7 +45,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #F8931F;
 		text-decoration: none;
 	}
 
@@ -72,7 +72,6 @@
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
 		text-align: center;
 	}
 
@@ -133,7 +132,7 @@
 
 		header.major {
 			border-bottom-width: 1px;
-			border-color: rgba(224, 224, 224, 0.75);
+			border-color: #F8931F;
 			border-style: solid;
 			border-top-width: 1px;
 			margin-bottom: 6em;
@@ -142,7 +141,7 @@
 		}
 
 			header.major:before, header.major:after {
-				background: rgba(224, 224, 224, 0.75);
+				background: #F8931F;
 				content: '';
 				display: block;
 				height: 1px;
@@ -169,7 +168,7 @@
 				padding: 1.5em 1.5em 0 1.5em;
 				font-size: 1.5em;
 				line-height: 1.75em;
-				border-top: solid 1px rgba(224, 224, 224, 0.75);
+				border-top: solid 1px #F8931F;
 				display: inline-block;
 			}
 
@@ -193,7 +192,7 @@
 
 		footer.major {
 			border-bottom-width: 1px;
-			border-color: rgba(224, 224, 224, 0.75);
+			border-color: #F8931F;
 			border-style: solid;
 			border-top-width: 1px;
 			margin-top: 6em;
@@ -202,7 +201,7 @@
 		}
 
 			footer.major:before, footer.major:after {
-				background: rgba(224, 224, 224, 0.75);
+				background: #F8931F;
 				content: '';
 				display: block;
 				height: 1px;
@@ -266,7 +265,7 @@
 		select:focus,
 		textarea:focus {
 			background: rgba(224, 224, 224, 0.15);
-			border-color: #4eb980;
+			border-color: #F8931F;
 		}
 
 	input[type="text"],
@@ -561,7 +560,7 @@
 		-o-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #544d55;
+		background: #F8931F;
 		border-radius: 4px;
 		border: 0;
 		color: white;
@@ -582,7 +581,7 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #6e6570;
+			background: #F8931F;
 		}
 
 		input[type="submit"]:active,
@@ -598,7 +597,7 @@
 		.button.alt {
 			background: none;
 			box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-			color: #544d55;
+			color: #F8931F;
 		}
 
 			input[type="submit"].alt:hover,
@@ -741,7 +740,7 @@
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../images/header.jpg");
+		background-color: #29AAE3;
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -752,7 +751,6 @@
 	}
 
 		#header:before, #header:after {
-			background: rgba(224, 224, 224, 0.75);
 			content: '';
 			left: 50%;
 			position: absolute;
@@ -778,7 +776,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #F8931F;
 			}
 
 		#header strong, #header b {
@@ -794,11 +792,11 @@
 		#header input[type="button"],
 		#header .button {
 			background: white;
-			color: #544d55;
+			color: #F8931F;
 		}
 
 		#header .logo {
-			background: #4eb980;
+			background: #F8931F;
 			border-radius: 100%;
 			color: white;
 			cursor: default;
@@ -819,6 +817,7 @@
 		#header h1 {
 			font-size: 2.5em;
 			margin: 0;
+			padding-bottom: 2rem;
 		}
 
 		#header p {
@@ -831,7 +830,7 @@
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #29AAE3;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
@@ -843,21 +842,10 @@
 		and a negative margin (to move everything up a bit).
 		*/
 		margin-top: -260px;
-		padding: calc(460px + 6em) 0 10em 0;
+		padding: calc(380px + 6em) 0 2em 0;
 		position: relative;
 		text-align: center;
 	}
-
-		#footer:before {
-			background: rgba(224, 224, 224, 0.75);
-			content: '';
-			height: calc(460px + 6em);
-			left: 50%;
-			position: absolute;
-			top: 0;
-			width: 1px;
-			z-index: 0;
-		}
 
 		#footer a {
 			color: white;
@@ -881,7 +869,7 @@
 		#footer .button {
 			background: white;
 			box-shadow: inset 0 0 0 1px white;
-			color: #4eb980;
+			color: #F8931F;
 		}
 
 			#footer input[type="submit"]:hover,
@@ -933,27 +921,16 @@
 				}
 
 					#footer .copyright li a:hover, #footer .copyright li span:hover {
-						color: white;
+						color: #F8931F;
 					}
 
 /* Main */
 
 	#main {
-		padding: 6em 0 5em 0;
+		padding: 6em 0 0em 0;
 		position: relative;
 		z-index: 1;
 	}
-
-		#main:before {
-			background: rgba(224, 224, 224, 0.75);
-			content: '';
-			height: 100%;
-			left: 50%;
-			position: absolute;
-			top: 0;
-			width: 1px;
-			z-index: -1;
-		}
 
 		#main header.major,
 		#main footer.major {
